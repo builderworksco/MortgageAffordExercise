@@ -1,0 +1,22 @@
+eoriginators_login:
+  username: ven729
+  password: sub5780
+eoriginators_up_data:
+  emailaddress: tester@test.com
+  firstname: testname
+  lastname: testnames
+  currentaddress: 1750 eastwood ct
+  city: Schaumburg
+  state: Illinois
+  zipcode: 60195
+  primaryphonenumber: 612-348-1134
+  ssn: 123-45-6789
+  dob: 12/12/1980
+  monthlymortgage: 1500
+  residencetype: RENT
+  mothersmaidenname: test
+  annualincome: 75000
+  unionname: AFA - Association of Flight Attendants
+  unionnumber: 1234
+  bankaccounts: Checking Only
+

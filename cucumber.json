@@ -1,0 +1,842 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check Mortgage Affordability",
+    "line": 1,
+    "description": "",
+    "id": "check-mortgage-affordability",
+    "uri": "/Users/hvx384/Documents/ATDD Training/Sample Projects/Mortgage_Afford & Lead Submission/features/Check_Affordability.feature",
+    "elements": [
+      {
+        "keyword": "Scenario Outline",
+        "name": "Affordable for a loan with Scenario Outline",
+        "line": 16,
+        "description": "",
+        "tags": [
+          {
+            "name": "@system",
+            "line": 2
+          }
+        ],
+        "id": "check-mortgage-affordability;affordable-for-a-loan-with-scenario-outline;my-affordability-is-as-expected;2",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the mortgage affordability page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9273126000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Annual Income as \"70000\"",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "70000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124448000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Monthly Debt Expenses as \"1000\"",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "1000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192850000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select Loan Type as \"30 Year Fixed\"",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "30 Year Fixed"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193282000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Interest Rate as \"3.5\"",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "3.5"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135322000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Down Payment as \"5000\"",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 25,
+                  "val": "5000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107890000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Annual Home Ownership Expense as \"2000\"",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 42,
+                  "val": "2000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 850577000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I submit the form",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234823000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see my affordability as \"$303,782\"",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "$303,782"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346346000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Affordable for a loan with Scenario Outline",
+        "line": 17,
+        "description": "",
+        "tags": [
+          {
+            "name": "@system",
+            "line": 2
+          }
+        ],
+        "id": "check-mortgage-affordability;affordable-for-a-loan-with-scenario-outline;my-affordability-is-as-expected;3",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the mortgage affordability page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3113812000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Annual Income as \"85000\"",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "85000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119133000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Monthly Debt Expenses as \"1500\"",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "1500"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444222000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select Loan Type as \"15 Year Fixed\"",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "15 Year Fixed"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115513000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Interest Rate as \"3.75\"",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "3.75"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100148000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Down Payment as \"7000\"",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 25,
+                  "val": "7000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105055000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Annual Home Ownership Expense as \"4000\"",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 42,
+                  "val": "4000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242894000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I submit the form",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150252000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see my affordability as \"$173,730\"",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "$173,730"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451722000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Affordable for a loan with Scenario Outline",
+        "line": 21,
+        "description": "",
+        "tags": [
+          {
+            "name": "@system",
+            "line": 2
+          }
+        ],
+        "id": "check-mortgage-affordability;affordable-for-a-loan-with-scenario-outline;my-affordability-is-not-as-expected;2",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the mortgage affordability page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1711503000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Annual Income as \"70000\"",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "70000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119046000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Monthly Debt Expenses as \"1000\"",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "1000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121375000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select Loan Type as \"15 Year Fixed\"",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "15 Year Fixed"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135450000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Interest Rate as \"3.8\"",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "3.8"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126833000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Down Payment as \"5000\"",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 25,
+                  "val": "5000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104937000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Annual Home Ownership Expense as \"2000\"",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 42,
+                  "val": "2000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108835000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I submit the form",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297539000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see my affordability as \"$200,000\"",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "$200,000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:33"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "\nexpected: \"$200,000\"\n     got: \"$188,864\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/check_affordability.rb:36:in `/^I should see my affordability as \"([^\"]*)\"$/'\n./features/Check_Affordability.feature:12:in `Then I should see my affordability as \"<expected_result>\"'",
+              "duration": 363833000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Affordable for a loan with Scenario Outline",
+        "line": 22,
+        "description": "",
+        "tags": [
+          {
+            "name": "@system",
+            "line": 2
+          }
+        ],
+        "id": "check-mortgage-affordability;affordable-for-a-loan-with-scenario-outline;my-affordability-is-not-as-expected;3",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the mortgage affordability page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1347849000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Annual Income as \"85000\"",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "85000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122665000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Monthly Debt Expenses as \"1500\"",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "1500"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163957000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select Loan Type as \"30 Year Fixed\"",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "30 Year Fixed"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148708000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Interest Rate as \"3.65\"",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "3.65"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432688000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Down Payment as \"7000\"",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 25,
+                  "val": "7000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176838000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Annual Home Ownership Expense as \"4000\"",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 42,
+                  "val": "4000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109816000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I submit the form",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197247000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see my affordability as \"$300,000\"",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "$300,000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:33"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "\nexpected: \"$300,000\"\n     got: \"$272,051\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/check_affordability.rb:36:in `/^I should see my affordability as \"([^\"]*)\"$/'\n./features/Check_Affordability.feature:12:in `Then I should see my affordability as \"<expected_result>\"'",
+              "duration": 532738999
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Affordable for a loan with Scenario",
+        "line": 25,
+        "description": "",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          },
+          {
+            "name": "@regression",
+            "line": 24
+          }
+        ],
+        "id": "check-mortgage-affordability;affordable-for-a-loan-with-scenario",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the mortgage affordability page",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1533149000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Annual Income as \"70000\"",
+            "line": 27,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "70000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131139000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Monthly Debt Expenses as \"1000\"",
+            "line": 28,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 34,
+                  "val": "1000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139993000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select Loan Type as \"30 Year Fixed\"",
+            "line": 29,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "30 Year Fixed"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122074000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Interest Rate as \"3.5\"",
+            "line": 30,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 26,
+                  "val": "3.5"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132330000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Down Payment as \"5000\"",
+            "line": 31,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 25,
+                  "val": "5000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396410000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter Annual Home Ownership Expense as \"2000\"",
+            "line": 32,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 42,
+                  "val": "2000"
+                }
+              ],
+              "location": "features/step_definitions/check_affordability.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183040000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I submit the form",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176844000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see my affordability result",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/check_affordability.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30132000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
